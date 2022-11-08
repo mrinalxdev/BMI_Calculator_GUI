@@ -1,0 +1,21 @@
+Background Color and Themes 💥
+
+background Color : #001253   010409
+background color 2 : 3E6D9C    0d1117
+
+Hover Options and Images : #FD841F
+Hover Options Preferred : #E14D2A
+
+
+Majorly Button Colors :  #c9d1d9   #238636
+Buttons on Hover : #2ea043
+
+
+Text Colors : #c9d1d9
+
+
+Text Colors on Same bg : #8b949e
+
+
+
+Slogan Type : Its not Important where are your 
