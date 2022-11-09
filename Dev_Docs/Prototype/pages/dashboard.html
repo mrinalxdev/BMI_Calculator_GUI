@@ -7,7 +7,7 @@
     <title>DevSpace | Dashboard</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../Css/dashboard.css">
-    <script src="../js/script.js"></script>
+    <script defer src="../js/script.js"></script>
 </head>
 <body>
         <header>
@@ -47,7 +47,7 @@
                 </div>
     
                 <div class="user">
-                    <button onclick=""><img src="../Images/user.jpeg" alt=""></button>
+                    <button><a href="../pages/Homepage.html"><img src="../Images/user.jpeg" alt=""></a></button>
             </div>
             </div>
     
@@ -64,7 +64,7 @@
                     <img src="../Images/dashboard.jpeg">
                 </div>
                 <div class="txt-contain">
-                    <h1>Overview</h1>
+                    <h1>Profile Overview</h1>
                     <p>Username : bello_mrinal</p>
                     <span><p>In love with Programming, building and coffee ..Working on my web2 and web3 skills to enhance my pocket !</p></span>
                     <p>Varanasi, Uttar Pradesh, India</p>
@@ -75,6 +75,48 @@
                         <a href="#"><i class="fa-brands fa-github  fa-fw"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram  fa-fw"></i></a>
                     </div>
+
+                    <div class="edit-btn">
+                        <button>
+                            Edit Profile
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects">
+                <h1>Showcased Projects</h1>
+                <div class="container">
+                    <div class="caruosel">
+                        <div class="slider">
+                            <div class="slide1">
+                                <div class="text-box">
+                                    <h1>Gym Website</h1>
+                                    <p>Tech stack used : Reactjs Nodejs and Redis for backend</p>
+                                </div>
+                            </div>
+                            <div class="slide2">
+                                Slide 2
+                            </div>
+                            <div class="slide3">
+                                Slide 3
+                            </div>
+                            <div class="slide4">
+                                Slide 4
+                            </div>
+                            <div class="slide5">
+                                Slide 5
+                            </div>
+                        </div>
+                        <div class="controls">
+                            <span class="arrow left" onclick="right()">Left</span>
+                            <span class="arrow right">Right</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="btn-new">
+                    <button>Add New Porject</button>
                 </div>
             </section>
         </main>
